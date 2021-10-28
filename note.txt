@@ -1,0 +1,14 @@
+- php artisan make:controller PersonController -r
+- php artisan make:model Person -m
+
+- php artisan make:model --factory Person 
+
+- php artisan make:factory PersonFactory -m Person
+- php artisan make:seeder PersonTableSeeder
+- php artisan tinker
+- php artisan migrate --seed
+
+- php artisan tinker
+- App\Models\Person::all()
+- App\Models\Person::find(1)
+- App\Models\Person::count()
